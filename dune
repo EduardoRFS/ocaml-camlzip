@@ -1,7 +1,6 @@
 (library
  (public_name zip)
  (synopsis "OCaml ZIP interface")
- (wrapped false)
  (modules gzip zip zlib)
  (libraries stdlib-shims)
  (c_names zlibstubs)
